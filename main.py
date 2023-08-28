@@ -25,3 +25,4 @@ def print_item(n):
 print(print_item(10))
 
 # 4. O(log n) - more efficient than O(n) and O(n^2)
+# 5. O(n log n) -  For some sorting algorithm
