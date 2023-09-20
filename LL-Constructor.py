@@ -20,8 +20,8 @@ print('Length:', my_LL.length)
 """
     EXPECTED OUTPUT:
     ----------------
-    Head: 4
-    Tail: 4
+    Head: 5
+    Tail: 5
     Length: 1
     
 """
