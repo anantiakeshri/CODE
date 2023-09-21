@@ -11,6 +11,7 @@ class LinkedList:
         self.tail = new_node
         self.length = 1
 
+    # Make a print function here
     def print_list(self):
         temp = self.head
         while temp is not None:
@@ -34,6 +35,6 @@ my_linked_list.append(3)
 my_linked_list.append(23)
 my_linked_list.append(7)
 
-my_linked_list.print_list()
+my_linked_list.print_list()         #Calling the function
 
 
