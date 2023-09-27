@@ -1,9 +1,9 @@
 # 160. Intersection of Two Linked Lists
 
 """ Input """
-# intersectVal = 8
-# listA = [4,1,8,4,5]
-# listB = [5,6,1,8,4,5]
+intersectVal = 8
+listA = [4,1,8,4,5]
+listB = [5,6,1,8,4,5]
 # skipA = 2
 # skipB = 3
 
@@ -21,6 +21,8 @@ are different node references. In other words, they point to two different locat
 
 class Solution:
     def getIntersectionNode(headA, headB):
+        listA = headA
+        listB = headB
         intersectVal = set()
 
         while headA:
@@ -31,4 +33,3 @@ class Solution:
                 return headB
             headB=headB.next
         return None
-    
