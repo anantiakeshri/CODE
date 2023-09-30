@@ -1,9 +1,9 @@
 # Leet Code - 20
 
-s = '{)'
+# s = '{)'
 # #Output - True
 
-# s = '({[]})'
+s = '({[]})'
 # # return True
 
 def isValid(s: str) -> bool:
