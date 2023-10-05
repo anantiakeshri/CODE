@@ -1,4 +1,5 @@
 # Leet Code - Ques 933 - Number of recent calls
+
 from collections import deque
 class RecentCounter:
     def __init__(self):
