@@ -8,22 +8,8 @@ target = 6
 # target = 9
 # # Output: [0,1]
 
-""" Approach 1 - Not optimized - 16/60 TC pass"""
-def twoSum(self, nums, target):
-    i = 0
-    j = (len(nums) - 1)
-    for index, _ in enumerate(nums):
-        sum = nums[i] + nums[j]
-        if sum == target:
-            return i, j
-        elif sum < target:
-            i = i + 1
-        else:
-            j = j - 1
-
-
-""" Approach 2 = HashMap"""
-def twoSum(self, nums, target):
+""" Approach 2 - HashMap - Sliding Window Technique """
+def twoSum(nums, target):
     seen = {}
     for i, num in enumerate(nums):
         if target - num in seen:
@@ -31,4 +17,4 @@ def twoSum(self, nums, target):
         elif num not in seen:
             seen[num] = i
 
-print(nums, target)
+print(twoSum(nums, target))
