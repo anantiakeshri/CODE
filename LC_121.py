@@ -1,8 +1,8 @@
 """ Best Time To Buy and Sell Stock """
 
-
 prices = [7,6,4,3,1]
 
+""" Sliding window technique - O(n)"""
 def maxProfit(prices):
     max_Profit = 0
     buy, sell = 0, 1
