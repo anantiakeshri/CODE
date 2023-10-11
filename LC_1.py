@@ -8,7 +8,7 @@ target = 6
 # target = 9
 # # Output: [0,1]
 
-""" Approach 2 - HashMap - Sliding Window Technique """
+""" Approach 1 - HashMap - Sliding Window Technique """
 def twoSum(nums, target):
     seen = {}
     for i, num in enumerate(nums):
