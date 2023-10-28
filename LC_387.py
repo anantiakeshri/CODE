@@ -1,4 +1,7 @@
-# Leet code - Ques 387
+# Leet code - Ques 387 - First Unique Character
+
+s = "loveleetcode"
+# output - 2 : TC 2
 
 """ Approach 1 """
 def firstUniqChar(s: str) -> int:
@@ -7,6 +10,8 @@ def firstUniqChar(s: str) -> int:
             return i
         
     return -1
+
+print(firstUniqChar(s))
 
 """ Approach 2 """
 # def firstUniChar(s:str) -> int:
@@ -20,10 +25,5 @@ def firstUniqChar(s: str) -> int:
 # s = "leetcode"
 # output - 0 : TC 1
 
-s = "loveleetcode"
-# output - 2 : TC 2
-
 # s = "aabb"
 # output - -1 : TC 3
-
-print(firstUniqChar(s))
