@@ -3,7 +3,6 @@ class Node:
         self.value = value
         self.next = None
         
-
 class Queue:
     def __init__(self, value):
         new_node = Node(value)
@@ -19,7 +18,7 @@ class Queue:
             
     def enqueue(self, value):
         new_node = Node(value)
-        if self.length == 0:
+        if self.first is None:
             self.first = new_node
             self.last = new_node
         else:
@@ -27,8 +26,10 @@ class Queue:
             self.last = new_node
         self.length += 1
         
+my_queue = Queue(11)
+my_queue.enqueue(3)
+my_queue.enqueue(23)
+my_queue.enqueue(7)
+my_queue.enqueue(4)
 
-my_queue = Queue(4)
-my_queue.enqueue(11)
-my_queue.enqueue(16)
 my_queue.print_queue()
