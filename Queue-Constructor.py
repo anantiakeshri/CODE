@@ -3,7 +3,6 @@ class Node:
         self.value = value
         self.next = None
         
-
 class Queue:
     def __init__(self, value):
         new_node = Node(value)
@@ -17,6 +16,7 @@ class Queue:
             print(temp.value)
             temp = temp.next
             
-
+        
 my_queue = Queue(4)
+
 my_queue.print_queue()
