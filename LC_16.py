@@ -1,7 +1,7 @@
 #Leet Code - 16 - Integer to Roman
 
-num = 58
-# Output: "LVIII"
+num = 100
+# Output: "C"
 
 def intToRoman(num: int) -> str:
         num_map = {
