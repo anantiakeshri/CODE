@@ -18,3 +18,4 @@ def minSubArrayLen(target: int, nums):
     return 0 if res == float("inf") else res
 
 print(minSubArrayLen(target, nums))
+# Maintaing streak
