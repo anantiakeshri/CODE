@@ -1,5 +1,5 @@
 # Longest repeating character replacement - LC 424
-# TC - O(26.n)
+# TC - O(26.n) so it is O(n)
 
 s = "AABABBA"
 k = 1
