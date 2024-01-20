@@ -1,4 +1,4 @@
-# 1888. Minimum Number of Flips to Make the Binary String Alternating
+# Leet Code - 1888 - Minimum Number of Flips to Make the Binary String Alternating
 
 s = "111000"
 # Output: 2
