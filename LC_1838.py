@@ -1,4 +1,4 @@
-# 1838. Frequency of the Most Frequent Element
+# Leet Code - 1838. Frequency of the Most Frequent Element
 
 nums = [1,2,4]
 k = 5
