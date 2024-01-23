@@ -1,4 +1,4 @@
-# 26. Remove Duplicates from Sorted Array
+# Leet Code - 26 - Remove Duplicates from Sorted Array
 
 nums = [1,1,2]
 # Output: 2, nums = [1,2,_]
