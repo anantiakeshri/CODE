@@ -1,4 +1,4 @@
-# Reverse a Integer - Question 7
+# Leet Code - Ques 7 - Reverse a Integer
 
 # x = -123
 # Output: -321
